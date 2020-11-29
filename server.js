@@ -22,6 +22,8 @@ app.use((req, res, next) => {
   next();
 });
 
+// this is a MiddelWare next()
+
 // app.use((req, res, next) => {
 //     res.render('Maintenance.hbs', {
 //         pageTitle:'stop',
