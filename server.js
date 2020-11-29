@@ -50,6 +50,12 @@ app.get('/about', (req, res) => {
     });
 })
 
+app.get('/project', (req, res) => {
+    res.render('project.hbs', {
+        projectTitle: 'This is a Project Page'
+    });
+})
+
 app.get('/bad', (req, res) => {
     res.send({
         errorMessgae: 'this is a bad Page'
